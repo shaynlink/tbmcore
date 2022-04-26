@@ -1,0 +1,37 @@
+{
+  "name": "tbmcore",
+  "version": "1.0.0",
+  "description": "# License MIT License",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaynlink/tbmcore.git"
+  },
+  "keywords": [],
+  "author": "shaynlink <guemmoudrayane03@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaynlink/tbmcore/issues"
+  },
+  "homepage": "https://github.com/shaynlink/tbmcore#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "docma": "^3.2.2",
+    "eslint": "^8.14.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.0.0",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.1"
+  }
+}

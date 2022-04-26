@@ -1,0 +1,44 @@
+{
+    "src": [
+      "./dist/**/*.js",
+      "./README.md"
+    ],
+    "jsdoc": {
+      "hierarchy": "true",
+      "plugins": [
+        "plugins/markdown"
+      ]
+    },
+    "app": {
+      "title": "GenToken Documentation",
+      "routing": "query",
+      "entrance": "content:readme",
+      "base": "/gentoken"
+    },
+    "markdown": {
+      "sanitize": false
+    },
+    "template": {
+      "options": {
+        "title": {
+          "label": "GenToken",
+          "href": "."
+        },
+        "navItems": [
+          {
+            "label": "Readme",
+            "href": "."
+          },
+          {
+            "label": "Documentation",
+            "href": "?api"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/shaynlink/gentoken"
+          }
+        ]
+      }
+    },
+    "dest": "docs"
+  }
